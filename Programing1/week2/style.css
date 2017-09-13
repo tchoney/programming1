@@ -1,0 +1,201 @@
+body {
+	color: /*#262624*/ #000;
+	font-family: "Neue Haas Grotesk Text", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0;
+	padding:0;
+	background-repeat: repeat;
+	text-rendering: optimizelegibility;
+}
+canvas{
+	border:1px solid #000000;
+	
+}
+
+a:link, a:visited {
+	color: #F02D09; /*#E33622*/
+	text-decoration: none;
+}
+a:hover {
+	color: #B22A1B;
+	text-decoration: none;
+}
+a:active {
+	color: #F7F7F2;
+	text-decoration: none;
+}
+#wrapper, #footer div {
+	width: 1000px; 
+	margin: auto;
+	padding: 20px 0 0 0;
+	/*background-image: url(images/bg-grid.png);*/
+	background-repeat: repeat-y;
+}
+.nav {
+	font-family: "Neue Haas Grotesk Text", Helvetica, "Helvetica Neue", "Neue Helvetica", Arial, sans-serif;
+	font-size: 28px;
+	line-height: 1em;
+	margin-left: 200px;
+	-webkit-font-smoothing: antialiased;
+}
+.nav div {
+	/*width: 160px;*/
+	float: left;
+	padding: 18px 0 18px 0;
+	margin: 10px 50px 50px 0;
+}
+.nav .current {
+	color: #000;
+}
+#footer a:link, #footer a:visited  {
+	color: #F7F7F2;
+}
+#footer p a:link, #footer p a:visited  {
+	color: #900;
+}
+.nav a:active, #footer a:active {
+	color: #B22A1B;
+}
+#main {
+	padding: 20px 0;
+	/*background-color: #F7F7F2;
+	background-image: url(images/bg-texture-light.gif);*/
+	background-repeat: repeat;
+	position: relative;
+}
+h1, h2, h3, h4 h5, h6 {
+	margin: 0 0 20px 0;
+	line-height: 1em;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+}
+h1, h2 {
+	font-family: "Neue Haas Grotesk Display", "Helvetica Neue", "Neue Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+}
+h2 {
+	font-size: 60px;
+	margin: 0 40px 0px 200px;
+}
+p + h2, h2 + p {
+	margin-top: 40px;
+}
+h3 {
+	font-family: "Neue Haas Grotesk Text", Helvetica, "Helvetica Neue", "Neue Helvetica", Arial, sans-serif;
+	font-size: 28px;
+    margin: 0 280px 10px 200px;
+    color: #ED7807;
+	-webkit-font-smoothing: antialiased;
+}
+p {
+	margin: 0 280px 20px 200px;
+	text-align: left;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+blockquote {
+	font-style: italic;
+}
+.deck {
+	font-family: "Neue Haas Grotesk Display Med", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0 40px 60px 200px;
+	-webkit-font-smoothing: antialiased;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+}
+p {
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 32px;
+	margin: 20px 40px 20px 200px;
+	-webkit-font-smoothing: antialiased;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+}
+
+.medium, .large {
+	position: relative;
+	left: 200px;
+	margin-bottom: 70px;
+}
+div.large {
+	width: 760px;
+}
+
+.xlarge {
+	position: relative;
+	left: 0px;
+	margin-bottom: 80px;
+}
+
+.tight {
+	margin:0;
+}
+.tight + h3 {
+	margin-top:70px;
+}
+
+.sidebarright {
+	width: 200px;
+	position: absolute;
+	left: 760px;
+	float: left;
+	z-index: 2;
+}
+
+.sidebarleft {
+	width: 120px;
+	position: absolute;
+	left: 42px;
+	float: left;
+	z-index: 2;
+}
+.caption, .label {
+	margin: 0 0 10px 0;
+	padding: 0;
+	text-align: left;
+	font-size: 12px;
+	line-height: 15px;
+
+}
+.textright {
+	text-align: right;
+}
+img + p.caption {
+	margin-top: 10px;
+}
+
+img.ancestor {
+	margin-top: 0px;
+	padding-top: 10px;
+	position: relative;
+	left: 200px;
+	top: -20px;
+	margin-bottom: 30px;
+}
+#footer {
+	width:100%;
+	min-width:1000px;
+	background-color: #ED7807;
+	padding: 40px 0;
+	background-image: url(images/bg-texture-red.gif);
+	background-repeat: repeat;
+	font-size: 10px;
+	color: #B00;
+}
+.clear {
+	clear: both;
+}
+.highlight {
+	background-color: yellow;
+}
+
